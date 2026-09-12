@@ -13,12 +13,12 @@ langchain-groq==1.1.3
 # --- Embeddings ----------------------------------------------------------
 # torch is CPU-only: install it from the PyTorch CPU index first, otherwise
 # pip pulls the much larger CUDA build. See the README setup section.
-torch==2.14.0+cpu
+torch==2.14.0
 # Required even though this pipeline never processes images: transformers'
 # lazy-import machinery reaches for its vision modules when anything walks
 # the package (Streamlit's file watcher does), and without torchvision each
 # attempt prints a full traceback - ~300 of them on startup.
-torchvision==0.29.0+cpu
+torchvision==0.29.0
 sentence-transformers==6.0.1
 langchain-huggingface==1.2.2
 
