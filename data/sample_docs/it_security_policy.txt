@@ -1,0 +1,42 @@
+ACME CORPORATION - IT SECURITY POLICY
+Document reference: SEC-2024-01
+
+1. PASSWORD REQUIREMENTS
+
+All account passwords must be at least 14 characters long and include
+uppercase letters, lowercase letters, numbers and symbols. Passwords
+must be changed every 90 days. The previous 5 passwords may not be
+reused.
+
+Multi-factor authentication is mandatory for all accounts that can
+access customer data.
+
+2. DEVICE SECURITY
+
+Company laptops must have full-disk encryption enabled. Screen lock
+must activate after 5 minutes of inactivity.
+
+Lost or stolen devices must be reported to the IT helpdesk within 2
+hours of discovery.
+
+3. REMOTE ACCESS
+
+Remote access to internal systems requires a connection through the
+company VPN. Employees working remotely must not use public Wi-Fi to
+access production systems without the VPN active.
+
+Remote work is permitted up to 3 days per week, consistent with the
+Employee Handbook, but any remote access to production databases
+additionally requires an approved engineering access request.
+
+4. DATA CLASSIFICATION
+
+Data is classified as Public, Internal, Confidential or Restricted.
+Restricted data may only be stored on company-managed systems and may
+never be copied to personal storage or personal email.
+
+5. INCIDENT REPORTING
+
+Suspected security incidents must be reported to security@acme.example
+within 1 hour of discovery. The security team acknowledges reports
+within 4 working hours.

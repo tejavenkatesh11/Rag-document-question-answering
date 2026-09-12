@@ -1,0 +1,10 @@
+.venv/
+.git/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+data/vectorstore/
+data/uploads/
+tests/
+project_documentation.pdf

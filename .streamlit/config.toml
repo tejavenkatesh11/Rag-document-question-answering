@@ -1,0 +1,3 @@
+# The app is a local tool; no need to send usage statistics.
+[browser]
+gatherUsageStats = false
