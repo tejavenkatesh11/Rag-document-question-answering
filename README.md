@@ -467,9 +467,7 @@ store (Qdrant, pgvector) would be the next step for a multi-user deployment.
 **Re-indexing is all-or-nothing.** Adding a document rebuilds the whole index.
 Incremental updates would matter at a larger corpus size.
 
-**Retrieval quality is not formally evaluated.** There are no recall@k or MRR
-metrics against a labelled relevance set. The 10 test questions verify
-end-to-end behaviour but are not a retrieval benchmark.
+**Retrieval quality is not formally evaluated.** The 10 test questions verify end-to-end RAG behaviour, including answerable, multi-document, and unanswerable scenarios, but they are not a retrieval benchmark. A larger labelled relevance dataset would be required to formally measure metrics such as Recall@K, Precision@K, or MRR..
 
 **No reranking.** A cross-encoder reranker over the retrieved candidates would
 likely improve precision, at the cost of extra latency.
